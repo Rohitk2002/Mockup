@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/Message_menu"
+            android:icon="@drawable/baseline_mark_chat_unread_24"
+            android:title="Message"/>
+
+        <item android:id="@+id/Photos_menu"
+            android:icon="@drawable/baseline_photo_library_242"
+            android:title="Photos"/>
+
+        <item android:id="@+id/Friends_menu"
+            android:icon="@drawable/baseline_groups_24"
+            android:title="Friends"/>
+
+        <item android:id="@+id/Music_menu"
+            android:icon="@drawable/baseline_library_music_24"
+            android:title="Music"/>
+
+        <item android:id="@+id/notification_menu"
+            android:icon="@drawable/baseline_notifications_active_24"
+            android:title="Notification"/>
+
+    </group>
+
+</menu>
